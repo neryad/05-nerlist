@@ -1,0 +1,16 @@
+<ion-header no-border>
+  <ion-toolbar color="dark">
+    <ion-title>
+      Pendientes
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="dark">
+  <ion-list color="dark" >
+    <ion-item color="dark"  *ngFor="let lista of deseosSevices.listas" detail>
+      <ion-label>{{lista.titulo}}</ion-label>
+    </ion-item>
+    
+  </ion-list>
+</ion-content>

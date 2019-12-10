@@ -24,3 +24,11 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+ion-list{
+    background-color: #222428!important;
+}
+
+.tab-selected{
+    color: #7044ff!important;
+}
