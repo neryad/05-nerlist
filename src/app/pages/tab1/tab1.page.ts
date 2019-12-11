@@ -16,11 +16,11 @@ export class Tab1Page {
   async agregarLista() {
     const alert = await this.alertCtrl.create({
       header: 'Nueva Lista',
-      inputs:[
+      inputs: [
         {
-          name:'titulo',
-          type:'text',
-          placeholder:'Nombre de la lista'
+          name: 'titulo',
+          type: 'text',
+          placeholder: 'Nombre de la lista'
         }
       ],
       buttons: [

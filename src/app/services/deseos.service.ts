@@ -38,10 +38,10 @@ export class DeseosService {
     }
 
     cargarStorage() {
-      if(localStorage.getItem('data')) {
+      if (localStorage.getItem('data')) {
 
         this.listas = JSON.parse(localStorage.getItem('data'));
-      }else{
+      } else {
         this.listas = [];
       }
     }

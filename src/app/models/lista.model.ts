@@ -1,6 +1,6 @@
 import { ListaItem } from './lista-item.mode';
 
-export class Lista{
+export class Lista {
 
     id: number;
     titulo: string;
