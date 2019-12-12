@@ -1,6 +1,8 @@
 {
   "name": "nerlist",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "001ff9e0"
 }
